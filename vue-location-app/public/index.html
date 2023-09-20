@@ -8,8 +8,8 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-  <script src="/googleMaps.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7b_FFioyoYpoJ-laEfmEHwY7eMAMxJiU&callback=initMap" async defer></script>
+    <script src="/googleMaps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<%= VUE_APP_GOOGLE_MAPS_API_KEY %>" async defer></script>
 
     <noscript>
       <strong
